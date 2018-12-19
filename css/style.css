@@ -129,10 +129,22 @@
   border-bottom: 160px solid #0f4949;
 }
 
+.services-items-icon div {
+  width: 130px;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .services-items-icon img {
-  padding-left: 15px;
-  padding-top: 35px;
-  max-width: 100px;
+  width: 70%;
 }
 
 .services-items p {
@@ -244,6 +256,9 @@ footer {
 }
 
 @media (max-width: 1199px) {
+  .services-items p {
+    font-size: 20px;
+  }
   .contacts a {
     font-size: 25px;
   }
@@ -342,9 +357,9 @@ footer {
     height: 135px;
     border-bottom: 135px solid #0f4949;
   }
-  .services-items-icon img {
-    padding-left: 15px;
-    padding-top: 25px;
+  .services-items-icon div {
+    width: 100px;
+    height: 135px;
   }
   .advantages {
     margin-top: 85px;

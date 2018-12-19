@@ -88,11 +88,15 @@ $white: #ffffff
       width: 150px
       height: 160px
       border-right: 50px solid transparent
-      border-bottom: 160px solid $green      
+      border-bottom: 160px solid $green
+      div
+        width: 130px
+        height: 160px
+        display: flex
+        justify-content: center
+        align-items: center
       img
-        padding-left: 15px
-        padding-top: 35px
-        max-width: 100px
+        width: 70%
     p
       font-family: $ff
       font-size: 23px
@@ -176,6 +180,8 @@ footer
   margin-bottom: 40px
 
 @media (max-width: 1199px)
+  .services-items p
+    font-size: 20px
   .contacts
     a
       font-size: 25px
@@ -187,7 +193,7 @@ footer
       font-size: 40px
     &-items
       font-size: 25px    
-@media (max-width: 991px)
+@media (max-width: 991px)  
   .brend 
     min-height: 650px
   .advantages
@@ -247,9 +253,9 @@ footer
         width: 135px
         height: 135px
         border-bottom: 135px solid #0f4949
-        img
-          padding-left: 15px
-          padding-top: 25px
+        div
+          width: 100px
+          height: 135px
   .advantages 
     margin-top: 85px
     h2
